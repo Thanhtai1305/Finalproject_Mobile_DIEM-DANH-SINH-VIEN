@@ -1,0 +1,42 @@
+name: roll_call
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase packages
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.1
+  cloud_firestore: ^4.3.1
+  firebase_database: ^10.4.5
+
+  # Local notifications
+  flutter_local_notifications: ^19.2.1
+  permission_handler: ^11.3.0
+
+  # Utilities
+  intl: ^0.19.0
+  fl_chart: ^0.64.0
+  
+  # State management
+  provider: ^6.1.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png

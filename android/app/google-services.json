@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "97791582149",
+    "firebase_url": "https://attendancesystem-b8723-default-rtdb.firebaseio.com",
+    "project_id": "attendancesystem-b8723",
+    "storage_bucket": "attendancesystem-b8723.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97791582149:android:3d2b60e8d864d0522335ac",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2-6KHzTgSrxcGuBUmUsA5Q8W1IyRAYBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97791582149:android:0dc2966c8b3735242335ac",
+        "android_client_info": {
+          "package_name": "com.example.roll_call"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2-6KHzTgSrxcGuBUmUsA5Q8W1IyRAYBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
