@@ -1,52 +1,91 @@
-# roll_call - Điểm Danh Sinh Viên
+# 📌 Roll Call - Student Attendance Application
 
-A new Flutter project.
+Final Project - Course: **Mobile Programming**  
+Programming Language: **Flutter (Dart)**  
+Database: **Firebase (Realtime Database, two-way sync)**  
+Hardware Integration: **ESP32 + RFID**
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 👨‍💻 Team Members
+- Trần Nguyễn Thành Tài
+- Nguyễn Đăng Trường
+- Nguyễn Thị Ngọc Hân
+- Nguyễn Cao Tấn Thành
+- Nguyễn Đức Tiến
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📱 Project Overview
+**Roll Call** is a mobile application that integrates **Flutter (mobile app)** and **ESP32 + RFID (hardware)** to build a smart student attendance management system.  
+The system allows teachers to easily **manage, track, and analyze attendance data** in real-time, stored securely in Firebase.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
 
+## ✨ Features
+- 🔑 **Account Management**: Create and manage user accounts with Firebase Authentication.  
+- 📝 **Student List Management**: Add, edit, and remove students, with automatic two-way sync to Firebase.  
+- ⏰ **Custom Attendance Time**: Teachers can set the start and end time for attendance.  
+- ✅ **Attendance Status**: Mark students as *on time* or *late* depending on check-in time.  
+- 📅 **Daily Attendance Records**: Store student names, check-in times, and dates separately for each day.  
+- 📊 **Monthly Statistics**: Track attendance frequency to reward students with full participation.  
+- 🔔 **Push Notifications**: Students receive notifications when attendance is successfully recorded.  
+- 📡 **ESP32 + RFID Integration**: Students simply scan their RFID card, and the data is instantly synced with Firebase and the app.  
 
+---
 
+## 🏗️ System Architecture
+### Components:
+1. **Mobile Application (Flutter + Firebase)**  
+   - User authentication and account management  
+   - Real-time student attendance management  
+   - Syncs directly with Firebase Realtime Database  
 
+2. **Hardware (ESP32 + RFID)**  
+   - Detects student RFID card scans  
+   - Sends attendance data directly to Firebase  
 
+---
 
+## 📷 Screenshots / Demo
+*(Insert app screenshots or demo GIFs here)*  
 
-Project cuối kì - Môn: Lập trình di động
+---
 
-Made by: Thành Tài and friends
+## ⚙️ Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Thanhtai1305/Finalproject_Mobile_DIEM-DANH-SINH-VIEN.git
+   cd Finalproject_Mobile_DIEM-DANH-SINH-VIEN
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Connect Firebase:
+   * Enable Realtime Database
+   * Configure Authentication
+    
+4. Run the application:
+   ```bash
+   flutter run
+   ```
+---
+## 📊 Future Improvements
+### 🔍 Add Face Recognition  
+Use face recognition as an alternative attendance method.  
 
-Ngôn ngữ lập trình : Flutter (Dart)
+### 📑 Export Reports  
+Generate and export attendance reports in **PDF/Excel** format.  
 
-Database: Firebase (đồng bộ 2 chiều)
+### 🎨 UI/UX Enhancement  
+Upgrade the UI using **Material 3 / iOS style** for a modern look.  
 
-Sử dụng thêm: Phần cứng ESP32 + RFID để quẹt thẻ
+---
+## 📝 License
 
-Các tính năng của app:
+This project is developed for educational purposes only.
 
-- Tạo tài khoản, quản lý được các tài khoản đã tạo
-  
-- Thêm bớt danh sách sinh viên, đồng bộ 2 chiều với firebase
-  
-- Cài đặt được giờ điểm danh
-  
-- Hiển thị sinh viên nào đến đúng giờ, sinh viên nào đi trễ
-  
-- Ngày giờ điểm danh, tên sinh viên đã điểm danh được lưu ở từng ngày riêng biệt
-  
-- Có thống kê số lần sinh viên điểm danh trong tháng, để xem sinh viên nào đi học điểm danh đầy đủ, sẽ có khen thưởng cho các bạn sinh viên đi học đầy đủ nhất
-  
-- Sinh viên  nào điển danh thành công sẽ hiện thị thống báo notification trên thông báo của điện thoại
-
-
+--- 
 
 
